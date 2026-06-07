@@ -1,0 +1,65 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/backend/venv
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ChromaDB
+/backend/chroma_db
+
+# testing
+.coverage
+.tox
+.nox
+.pytest_cache
+
+# Next.js / Vite / React
+.next/
+/out/
+build/
+dist/
+
+# misc
+.DS_Store
+*.pem
+.idea/
+.vscode/
+*.swp
+*.log
+
+# local env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
